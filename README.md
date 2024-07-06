@@ -42,10 +42,10 @@ POST /produtos: Cria um novo produto.
 GET /produtos/:id: Retorna um produto específico.
 
 ## Tecnologias
-
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-
+<img alt="node"  title="Node" src="img/node.svg" width="50px">
+<img alt="ts"  title="TS" src="img/ts.svg" width="50px">
+<img alt="prisma"  title="Prisma" src="img/prisma.svg" width="50px">
+<img alt="postgres"  title="Postgres" src="img/postgres.svg" width="50px">
 
 Licença
 Este projeto está licenciado sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
