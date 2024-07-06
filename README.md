@@ -44,7 +44,7 @@ GET /produtos/:id: Retorna um produto específico.
 ## Tecnologias
 <img alt="node"  title="Node" src="img/node.svg" width="50px">
 <img alt="ts"  title="TS" src="img/ts.svg" width="50px">
-<img alt="prisma"  title="Prisma" src="img/prisma.svg" width="50px">
+<img alt="prisma"  title="Prisma" src="img/prisma.png" width="50px">
 <img alt="postgres"  title="Postgres" src="img/postgres.svg" width="50px">
 
 Licença
