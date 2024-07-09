@@ -9,10 +9,10 @@
 #### Produto: Gerencia os produtos disponíveis para venda.
 
 Tecnologias Utilizadas
-Linguagem de Programação: [Especifique a linguagem utilizada, por exemplo, Node.js, Python, Java]
-Banco de Dados: [Especifique o banco de dados utilizado, por exemplo, MySQL, MongoDB, PostgreSQL]
-Frameworks e Bibliotecas: [Liste os frameworks e bibliotecas utilizados, por exemplo, Express, Django, Spring Boot]
-Ferramentas de Desenvolvimento: [Liste as ferramentas utilizadas, por exemplo, Docker, Kubernetes, Jenkins]
+Linguagem de Programação: [Node.js()]
+Banco de Dados: [PostgreSQL()]
+Frameworks e Bibliotecas: [Express(), Kafka()]
+
 Estrutura do Projeto
 
 Clone o repositório:
@@ -42,10 +42,12 @@ POST /produtos: Cria um novo produto.
 GET /produtos/:id: Retorna um produto específico.
 
 ## Tecnologias
+<p>
 <img alt="node"  title="Node" src="img/node.svg" width="50px">
 <img alt="ts"  title="TS" src="img/ts.svg" width="50px">
 <img alt="prisma"  title="Prisma" src="img/prisma.png" width="50px">
 <img alt="postgres"  title="Postgres" src="img/postgres.svg" width="50px">
+</p>
 
 Licença
 Este projeto está licenciado sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
