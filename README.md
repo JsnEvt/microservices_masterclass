@@ -1,17 +1,50 @@
+# Microservices – Masterclass Daniele Evangelista
 
-<h1 align="center">
- Microserviços
-</h1>
-## Este projeto foi desenvolvido durante uma aula gratuita, juntamente com a programadora Daniele Leão Evangelista. A aplicação utiliza uma arquitetura de microserviços para gerenciar clientes, pedidos e produtos.
+Este repositório contém o projeto demonstrado pela **professora Daniele Evangelista** durante a prévia de sua Masterclass sobre **Arquitetura de Microserviços**.  
+O objetivo do projeto é apresentar, de forma prática, como funciona uma arquitetura distribuída utilizando **microserviços independentes**, comunicação assíncrona, mensageria, padrões modernos e boas práticas do ecossistema Node.js.
 
-## Descrição
-### A aplicação é composta por três microserviços principais:
-
-#### Cliente: Gerencia as informações dos clientes.
-#### Pedidos: Gerencia os pedidos realizados pelos clientes.
-#### Produto: Gerencia os produtos disponíveis para venda.
+---
 
 
+## 🚀 Tecnologias e Conceitos
+
+O projeto utiliza uma stack moderna, voltada para aplicações altamente escaláveis:
+
+### **Back-end**
+- **Node.js**  
+- **NestJS** — microserviços, modularização e injeção de dependências  
+- **TypeScript** — tipagem estática  
+- **Prisma ORM** — modelagem e acesso ao banco  
+- **PostgreSQL** — banco relacional
+
+### **Arquitetura & Infraestrutura**
+- **Docker & Docker Compose** — containerização dos serviços  
+- **Kafka ou RabbitMQ** — mensageria para comunicação assíncrona  
+- **API Gateway** — ponto de entrada único (opcional)  
+- **Service Discovery** (dependendo da versão)  
+- **Eventos e Workers**  
+- **DTOS e validação** com `class-validator`
+
+### **Padrões e Boas Práticas**
+- Comunicação **event-driven** (orientada a eventos)  
+- Padronização com DTOs  
+- Separação total entre serviços  
+- Persistência independente  
+- Escalabilidade horizontal  
+- Tratamento de erros e logs  
+- Configuração por variáveis de ambiente  
+
+---
+
+
+Cada serviço possui:
+
+- **Módulos, Controllers, Services**
+- **Entidades, Repositórios e DTOs**
+- **Eventos de entrada e saída**
+- **Integração com mensageria**
+
+---
 
 Clone o repositório:
 
@@ -60,8 +93,45 @@ docker-compose up --build
 <img alt="kafka" title="Kafka" src="img/Kafka.svg" width="50px">
 </p>
 
-Licença
-Este projeto está licenciado sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
+
+## 🧠 Principais Funcionalidades
+
+### ✔ Comunicação via Mensageria
+- Serviços se comunicam através de **eventos** (ex.: `order.created`, `payment.completed`).
+
+### ✔ Independência total entre serviços
+- Cada microserviço possui sua própria base de dados e regras de negócio.
+
+### ✔ Orquestração e/ou Coreografia
+- Fluxo baseado em eventos distribuídos.
+- Alguns serviços apenas **reagem** a eventos publicados.
+
+### ✔ Persistência isolada
+- Cada serviço possui seu próprio schema (Prisma + PostgreSQL).
+
+### ✔ Ambiente totalmente containerizado
+- Todos os serviços e infraestrutura sobem com um único comando.
+
+---
+🎯 Objetivo educacional
+
+Este projeto demonstra conceitos essenciais do mundo real:
+
+Arquitetura de microserviços
+
+Comunicação assíncrona
+
+Event-driven architecture
+
+Serviços independentes
+
+Containerização e ambiente de desenvolvimento
+
+Escalabilidade horizontal
+
+Modularização avançada com NestJS
+
+A proposta é entender como sistemas modernos são projetados, e fornecer bases sólidas para aplicações profissionais.
 
 Contato
 ## 🦸 Autor
@@ -71,4 +141,7 @@ Contato
 [![Gmail Badge](https://img.shields.io/badge/-jasonemsw10@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:jasonemsw10@gmail.com)](mailto:jasonemsw10@gmail.com)
 
 Feito por Jason Everton 👋🏽 [Entre em contato!](https://www.linkedin.com/in/jason-everton)
+
+
+
 
