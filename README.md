@@ -113,7 +113,7 @@ docker-compose up --build
 - Todos os serviços e infraestrutura sobem com um único comando.
 
 ---
-🎯 Objetivo educacional
+## 🎯 Objetivo educacional
 
 Este projeto demonstra conceitos essenciais do mundo real:
 
@@ -133,7 +133,6 @@ Modularização avançada com NestJS
 
 A proposta é entender como sistemas modernos são projetados, e fornecer bases sólidas para aplicações profissionais.
 
-Contato
 ## 🦸 Autor
 
 [![Linkedin Badge](https://img.shields.io/badge/-Jason-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/jason-everton/)](https://www.linkedin.com/in/jason-everton/)
